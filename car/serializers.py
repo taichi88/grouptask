@@ -17,3 +17,5 @@ class CarSerializer(serializers.ModelSerializer):
             representation.pop('slug', None)
 
         return representation
+
+

@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "car",
     "user",
-    "rest_framework"
+    "rest_framework",
+    #დოკუმენტაციისათვის ვაინსტალირებ აქ drf-yasg-ს
+    "drf_yasg",
 
 ]
 

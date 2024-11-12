@@ -55,3 +55,4 @@ class CarSingletonView(APIView):
 class CarListView(generics.ListAPIView):
     queryset = Car.objects.all()  # Get all cars
     serializer_class = CarSerializer
+    #aq gavuwer persmission class allowance if
